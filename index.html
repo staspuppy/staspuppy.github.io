@@ -2,11 +2,36 @@
 	<body>
 	<center>
 			<p>
-				<h1>Welcome to StasPuppy - world's leading provider of pictures of StasPuppies!</h1>
+				<h1>Welcome to StasPuppy.me - world's leading provider of pictures of StasPuppies!</h1>
+			</p>
+			<br>
+			<br>
+			<script type="text/javascript">
+			
+			window.onload = choosePic;
+
+			var myPix = new Array("img/1.jpeg","img/2.jpeg","img/3.jpeg","img/4.jpeg","img/5.jpeg","img/6.jpeg","img/7.jpeg","img/8.jpeg");
+
+			function choosePic() {
+				randomNum = Math.floor((Math.random() * myPix.length));
+				document.getElementById("myPicture").src = myPix[randomNum];
+			}
+			
+			</script>
+			<p>
+				<img src = "img/6.jpeg" id = "myPicture"/>
 			</p>
 			<br>
 			<br>
 			<p>
+				<h2> Want more StasPuppy? Click Refresh! </h2>
+				<br>
+				<form>
+					<input type="button" onClick="history.go(0)" value="Refresh">
+				</form>
+			</p>
+
+		<!-- 	<p>
 				<img src="img/2.jpeg">
 				<img src="img/1.jpeg">
 				<img src="img/3.jpeg">
@@ -16,7 +41,7 @@
 				<img src="img/5.jpeg">
 				<img src="img/6.jpeg">
 				<img src="img/8.jpeg">
-			</p>
+			</p> -->
 		</center>
 	</body>
 </html>
