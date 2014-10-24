@@ -1,5 +1,5 @@
 * {
-	font-family: Georgia, serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 1.05em;
 	margin: 0;
 	padding: 0;
@@ -26,6 +26,7 @@ h1, h2, p {
 
 html { overflow-x: hidden; }
 h2 { 
+  font: "Comic Sans MS", cursive, sans-serif;
   background: black;
   color: white;
   padding: 15px 0;
@@ -33,11 +34,13 @@ h2 {
 }
 h2:before, h2:after {
   content: "";
+  font: "Comic Sans MS", cursive, sans-serif;
   background: black;
   position: absolute;
   top: 0;
   bottom: 0;
 }
+
 h2:before {
   right: 100%;
 }
