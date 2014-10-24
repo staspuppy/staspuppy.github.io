@@ -1,7 +1,29 @@
 * {
 	font-family: Georgia, serif;
 	font-size: 1.05em;
+	margin: 0;
+	padding: 0;
 }
+
+body {
+	font: 14px Georgia, serif; 
+}
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { 
+	display: block; 
+}
+
+
+#page-wrap { 
+	width: 50%; margin: 100px auto;
+}
+
+h1, h2, p { 
+	margin: 20px 0; 
+}
+
+
 
 /*img {
 	width:384px;
@@ -24,3 +46,5 @@ a:visited {
 	text-decoration: none;
 	color: #CF5300;
 }
+
+
