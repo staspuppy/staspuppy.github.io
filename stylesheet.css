@@ -1,0 +1,26 @@
+* {
+	font-family: Georgia, serif;
+	font-size: 1.05em;
+}
+
+/*img {
+	width:384px;
+	height:256px;
+	float:right;
+	padding:50px;
+
+}*/
+
+a:link {
+	text-decoration: none;
+	color: #CF5300;
+}
+a:hover {
+	text-decoration:underline;
+	color:#CF5300;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #CF5300;
+}
