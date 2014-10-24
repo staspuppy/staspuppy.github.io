@@ -12,20 +12,17 @@
 			<p>
 				<h1>
 					<a href="http://www.path2usa.com/sponsoring-us-visa">Adopt a staspuppy!</a>
+					<!-- HEHEHE. STUPID HUMANS. -->
 				</h1>
 			</p>
 			<br>
 			<script type="text/javascript">
-			
-			window.onload = choosePic;
-
-			var myPix = new Array("img/1.jpeg","img/2.jpeg","img/3.jpeg","img/4.jpeg","img/5.jpeg","img/6.jpeg","img/7.jpeg","img/8.jpeg");
-		
-			function choosePic() {
-				randomNum = Math.floor((Math.random() * myPix.length));
-				document.getElementById("myPicture").src = myPix[randomNum];
-			}
-			
+				window.onload = choosePic;
+				var myPix = new Array("img/1.jpeg","img/2.jpeg","img/3.jpeg","img/4.jpeg","img/5.jpeg","img/6.jpeg","img/7.jpeg","img/8.jpeg");
+				function choosePic() {
+					randomNum = Math.floor((Math.random() * myPix.length));
+					document.getElementById("myPicture").src = myPix[randomNum];
+				}			
 			</script>
 			<p>
 				<img src = "img/6.jpeg" id = "myPicture"/>
