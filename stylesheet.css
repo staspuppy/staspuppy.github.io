@@ -37,7 +37,6 @@ h2:before, h2:after {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 9999px;
 }
 h2:before {
   right: 100%;
